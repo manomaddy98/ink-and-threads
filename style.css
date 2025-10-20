@@ -1,0 +1,275 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* make body take full viewport height */
+    background-color: #000; /* optional: match body with your sections */
+}
+
+#navbarNav {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+
+#navbar1 {
+    padding-left: 5px;
+}
+
+.navbar {
+    background-color: transparent !important;
+    transition: background-color 0.5s ease;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar.scrolled {
+    background-color: #82AAF2 !important; /* #FD105E with 90% opacity */
+}
+
+.nav-logo {
+    height: 70px;
+    width: auto;
+}
+
+
+.banner-section-bg-container {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-section-bg-container {
+    background-image: url("./images/wallpaper.jpg");
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .banner-section-bg-container {
+        background-position: center center; /* ensures image stays centered */
+        background-size: cover; /* scales image nicely */
+    }
+
+    #navbarNav {
+    background-color: #82AAF2;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-style: italic;
+    text-align: center;
+    }
+    
+    .banner-heading {
+    color: #eed480;
+    font-family: "Times New Roman";
+    font-size: 45px;
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    }
+}
+
+
+.banner-heading {
+    color: #eed480;
+    font-family: "Times New Roman";
+    font-size: 45px;
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+
+}
+
+.banner-text {
+    color: #eed480;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: oblique;
+    text-shadow: 0 0 8px #000000, 0 0 5px #000000;
+}
+
+.custom-button {
+    width: 130px;
+    height: 45px;
+    color: black;
+    background-color: #82AAF2;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #82AAF2;
+    background-color: black;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #82AAF2;
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #808080;
+    color: #82AAF2;
+}
+
+.modal-body {
+    background-image: linear-gradient(#808080, #82AAF2);
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+.modal-footer {
+    background-color: #82AAF2;
+}
+
+.link-more-view {
+    color: #82AAF2;
+    padding-bottom: 15px;
+    margin-left: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.wcs-section {
+    background-color: #000000;
+}
+
+.wcs-section-heading {
+    color: #82AAF2;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.wcs-section-description {
+    color: #ffffff;
+    font-family: "Times New Roman";
+    font-size: 16px;
+}
+
+.wcs-card {
+    text-align: center;
+    background-color: #82AAF2;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eed480;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    transition: background-color 0.3s ease;
+    /* Smooth color transition */
+}
+
+.wcs-card:hover {
+    background-color: #eed480;
+    /* Change to desired hover color */
+}
+
+
+.wcs-card-image {
+    height: 150px;
+    width: auto;
+}
+
+.wcs-card-title {
+    color: #000000;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wcs-card-description {
+    color: #000000;
+    font-family: "Times New Roman";
+    font-size: 16px;
+}
+
+.engine {
+    color: white;
+
+    font-style: italic;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.view-more {
+    background-color: #82AAF2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.view-more:hover {
+    background-color: #eed480;
+    /* Change to desired hover color */
+}
+
+/* Footer styling */
+.site-footer {
+    background-color: #82AAF2; /* light gray background */
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+.site-footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Flex for social icons */
+.myFlex {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Social media icons */
+.socialMediaIcons {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+    color: #000; /* default color */
+}
+
+.socialMediaIcons:hover {
+    transform: scale(1.2);
+    color: var(--primary-color); /* uses your brand color */
+}
+
+/* Optional gradient class if needed */
+.gradient1 {
+    /* Example gradient color */
+    background: linear-gradient(50deg, #ffc400, #1100ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-logo {
+    height: 80px; /* adjust as needed */
+    width: auto;
+}
+
+.addresss{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+
+

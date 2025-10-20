@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* make body take full viewport height */
+    background-color: #000; /* optional: match body with your sections */
+}
+
+.explore-menu-section {
+    background-color: #000000;
+}
+
+.menu-section-heading {
+    color: #82AAF2;
+    font-family: "Times New Roman";
+    font-style:italic;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.menu-section-para{
+    color: #eed480;
+    font-family: "Times New Roman";
+    font-style:italic;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-image {
+    border-radius: 16px;
+
+}
+
+.menu-item-card {
+    border-radius: 16px;
+    background-color: #eed480;
+}
+
+.menu-item-card:hover {
+    border-radius: 16px;
+    background-color: #82AAF2;
+}
+
+.menu-card-title {
+    color: #4e4e4e;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .menu-item-card {
+    width: 100% !important;
+    margin: 0 auto 20px auto;
+  }
+
+  .menu-item-image {
+    width: 100%;
+    height: auto;
+  }
+}

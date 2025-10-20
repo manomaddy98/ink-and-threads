@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ink_and_threads</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo title.png">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="./images/logo_inspyrenet.png" class="nav-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link navbar-link" href="#">Menu <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-link" href="#">Oversized tees</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-link" href="#">Hoodies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-link disabled" href="#" tabindex="-1" aria-disabled="true">Crop tops</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner-section-bg-container d-flex flex-column justify-content-center">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Welcome To Clothing World</h1>
+            <p class="banner-text mb-2">Your Imagination, Our Fabric</p>
+            <button class="custom-button">Learn More</button>
+            <button class="custom-outline-button">Order Now</button>
+        </div>
+    </div>
+
+    <!-- Clothing Section -->
+    <div class="wcs-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h1 class="wcs-section-heading">Choose your Clothing</h1>
+                    <p class="wcs-section-description">It’s not just a cloth; Our Clothing Brand makes you Elegant.</p>
+                </div>
+
+                <div class="col-12 col-md-4" >
+                    <a href="#" class="text-decoration-none">
+                    <div class="wcs-card p-3 mb-3">
+                        <img src="./images/Hoodie.png" class="wcs-card-image" />
+                        <h1 class="wcs-card-title">Hoodies</h1>
+                        <p class="wcs-card-description">
+                            Made from <span class="engine">100% premium cotton (310 GSM)</span>. Custom prints available.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <a href="#" class="text-decoration-none">
+                    <div class="wcs-card p-3 mb-3">
+                        <img src="./images/Oversized tees.png" class="wcs-card-image" />
+                        <h1 class="wcs-card-title">Oversized t-shirts</h1>
+                        <p class="wcs-card-description">
+                            Made from <span class="engine">100% premium cotton (240 GSM)</span>. Custom prints available.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <a href="#" class="text-decoration-none">
+                    <div class="wcs-card p-3 mb-3">
+                        <img src="./images/Crop top.png" class="wcs-card-image" />
+                        <h1 class="wcs-card-title">Crop tops</h1>
+                        <p class="wcs-card-description">
+                            Girls crop top made from <span class="engine">100% cotton (180 GSM)</span>, lightweight & breathable. Custom prints available.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+
+                <!-- Buttons -->
+                <div class="col-12 text-center mt-4">
+                    <a href="./menu.html"><button class="view-more view-more-btn">
+                        View More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                        </svg>
+                    </button></a>
+
+                    <button type="button" class="view-more  view-more-btn" data-toggle="modal" data-target="#exampleModal">
+                        History of ink_and_threads
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Founding and Early Years</h5>
+                                    <button type="button" class="close text-warning" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><span class="engine">Ink & Threads</span> was founded in <strong>April 2025</strong> by <strong>R. Manoj Kumar</strong>, who serves as the CEO. The journey began with our first collection of <strong>oversized t-shirts</strong>, followed by <strong>hoodies</strong> and <strong>crop tops</strong>. <br><br> Our brand is proudly based in <strong>India, Tamil Nadu, Chennai</strong>, where creativity and comfort come together in every piece.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- Footer -->
+<footer class="site-footer mt-5 py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        
+        <!-- Address -->
+        <div class="mb-3 mb-md-0 text-center text-md-left">
+            <h5  class="addresss">Address: Vanagaram, Chennai - 600 095</h5>
+            <h6 class="addresss">Contact Number: 
+                <a href="tel:8248807164"><span class="engine">8248807164</span></a></h6>
+        </div>
+
+        <!-- Logo + Social Media -->
+        <div class="d-flex flex-column align-items-center">
+            <!-- Logo -->
+            <img src="./images/logo_inspyrenet.png" class="footer-logo mb-2" />
+
+            <!-- Social Media Icons -->
+            <div class="myFlex" id="socialMediaSection">
+                <i onclick="openInNewTab('https://https://www.instagram.com/ink_and_threads_?igsh=NHVxcjNpajdiYjFx')" class="socialMediaIcons bi bi-instagram gradient1"></i>
+                <i onclick="openInNewTab('https://m.facebook.com/ink_and_threads_/events/')" class="socialMediaIcons bi bi-facebook gradient1"></i>
+                <i onclick="openInNewTab('https://maps.app.goo.gl/BYWiJtTYmwXTW12FA')" class="socialMediaIcons bi bi-geo-alt-fill gradient1"></i>
+                <i onclick="openInNewTab('https://www.youtube.com/@ink_and_threads_')" class="socialMediaIcons bi bi-youtube gradient1"></i>
+                <i onclick="openInNewTab('https://wa.me/8248807164')" class="socialMediaIcons bi bi-whatsapp gradient1"></i>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+    <script>
+        function openInNewTab(url) {
+            window.open(url, '_blank').focus();
+        }
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+    window.addEventListener("scroll", function() {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    });
+</script>
+</body>
+</html>
