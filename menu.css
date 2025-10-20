@@ -20,11 +20,11 @@ html, body {
 }
 
 .menu-section-para{
-    color: #cfa20cff;
+    color: #ffffffff;
     font-family: "Times New Roman";
     font-style:italic;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
 }
 
